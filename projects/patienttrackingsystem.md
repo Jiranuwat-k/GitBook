@@ -40,6 +40,10 @@ Environment
 * Patienttracking Device (ESP8266)
 * Google Apps Script
 
+### Device diagram
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-02-19 203059.png" alt=""><figcaption><p>แผนผังการทำงานของเครื่องรับระบบติดตามตัวผู้ป่วยเพื่อเข้ารับการตรวจรักษา</p></figcaption></figure>
+
 ### รางวัล <a href="#reward" id="reward"></a>
 
 {% hint style="info" %}
