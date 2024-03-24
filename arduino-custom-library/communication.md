@@ -8,8 +8,7 @@ description: Library สำหรับควบคุม I2C/TWI, LCD Display, 
 
 [https://github.com/Jiranuwat-k/iEEI2C](https://github.com/Jiranuwat-k/iEEI2Clcd)
 
-````cpp
-```arduino
+```cpp
 // Scan I2C Devices Example
 #include "iEE_I2C.h"
 // iEE_I2C i2c;
@@ -43,7 +42,6 @@ void loop(){
   delay(1000);
 }
 ```
-````
 
 ### iEE\_I2Clcd.h
 
