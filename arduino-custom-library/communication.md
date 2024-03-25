@@ -1,5 +1,8 @@
 ---
 description: Library สำหรับควบคุม I2C/TWI, LCD Display, etc.
+cover: >-
+  https://images.unsplash.com/photo-1603732551658-5fabbafa84eb?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwyfHxhcmR1aW5vJTIwY29tbXVuaWNhdGlvbnxlbnwwfHx8fDE3MTEzOTM3MDl8MA&ixlib=rb-4.0.3&q=85
+coverY: 0
 ---
 
 # 📡 Communication

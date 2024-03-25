@@ -6,9 +6,10 @@
 
 * [🏥 Patienttrackingsystem](projects/patienttrackingsystem.md)
 
-## certificate
+## 🏆 certificate
 
 * [ทักษะวิชาชีพ](certificate/skill-competition.md)
+* [สิ่งประดิษฐ์](certificate/invention.md)
 
 ## 📚 Arduino Custom Library
 

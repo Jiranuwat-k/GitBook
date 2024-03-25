@@ -42,7 +42,19 @@ Environment
 
 ### Device diagram
 
+<div data-full-width="true">
+
 <figure><img src="../.gitbook/assets/Screenshot 2024-02-19 203059.png" alt=""><figcaption><p>แผนผังการทำงานของเครื่องรับระบบติดตามตัวผู้ป่วยเพื่อเข้ารับการตรวจรักษา</p></figcaption></figure>
+
+</div>
+
+### Dashboard
+
+<div data-full-width="true">
+
+<figure><img src="../.gitbook/assets/Dashboard.png" alt=""><figcaption><p>หน้าต่างแสดงผลและควบคุมระบบ</p></figcaption></figure>
+
+</div>
 
 ### รางวัล <a href="#reward" id="reward"></a>
 
