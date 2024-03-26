@@ -12,7 +12,7 @@ coverY: 0
 [https://github.com/Jiranuwat-k/iEEI2C](https://github.com/Jiranuwat-k/iEEI2Clcd)
 
 ```cpp
-// Scan I2C Devices Example
+// Example Scan I2C Devices
 #include "iEE_I2C.h"
 // iEE_I2C i2c;
 void ScanI2CDevices(void) {
@@ -49,4 +49,30 @@ void loop(){
 ### iEE\_I2Clcd.h
 
 [https://github.com/Jiranuwat-k/iEEI2Clcd](https://github.com/Jiranuwat-k/iEEI2Clcd)    Required : iEE\_I2C.h
+
+```cpp
+// Example LCD Display with I2C
+#include "iEE_I2Clcd.h"
+iEE_I2Clcd lcd1;
+// https://maxpromer.github.io/LCD-Character-Creator/
+uint16_t counter = 0;
+char sbuf[20];
+int WaitTime = 1000;
+unsigned long LastTime = 0;
+void setup(){
+  Serial.begin(115200);
+  lcd1.begin(0x27);
+  lcd1.setCursor(0, 0);
+  lcd1.print("iEE_I2Clcd.h");
+  LastTime = millis();
+}
+void loop(){
+  if(millis() - LastTime >= WaitTime){
+    sprintf( sbuf, "Count: %05u", counter++);
+    lcd1.setCursor(0, 1);
+    lcd1.print(sbuf);
+    LastTime = millis();
+  }
+}
+```
 
