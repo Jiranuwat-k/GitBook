@@ -8,6 +8,7 @@
 
 ## 🏆 certificate
 
+* [อบรม](certificate/train.md)
 * [ทักษะวิชาชีพ](certificate/skill-competition.md)
 * [สิ่งประดิษฐ์](certificate/invention.md)
 
